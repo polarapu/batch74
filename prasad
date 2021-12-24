@@ -57,6 +57,20 @@ git push
 Brach
 -------
 git branch
+POP = cut
+===
+git stash pop
+git stash pop stash@{x}
+
+APPLY = copy
+=====
+git stash apply
+git stash apply stash@{x}
+
+DROP = delete
+====
+git stash drop
+git stash drop stash@{x}
 
 git branch branch-name
 
@@ -64,37 +78,15 @@ git branch
 
 git checkout branch-name
 
-git merge branch-name
-
+djfjdsfjgit merge branch-name
+fdkfkf
 git branch -d branch-name  (loacl)
+fhjfjf
+git pufffasdsh origin branch-name
+orsaaaaaaaaaaaaaa
+git push path/c-rdddddddddddddepo branch-name
 
-git push origin branch-name
-or
-git push path/c-repo branch-name
-
-git push origin -d branh-name  (central )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+git push origin -d branh-name dddddddddddd (central )
 
 git log
 git log -n
@@ -123,7 +115,24 @@ git log --grep="label"
 git log -- file/dir
 
 
+git status
+git config --global alias.s "status"
+git s
 
+git config --list
+git config --global alias.cl "config --list"
+git cl
+
+git config --global --unset alias.cl
+
+
+.gitignore
+-----------
+
+
+revert
+------
+git revert cid
 
 
 
